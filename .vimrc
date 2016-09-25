@@ -18,7 +18,6 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
 Plugin 'git@github.com:ctrlpvim/ctrlp.vim.git'
 " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -28,7 +27,6 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-commentary'
 Plugin 'easymotion/vim-easymotion'
-" Plugin 'tpope/vim-ragtag'
 Plugin 'othree/html5.vim'
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'xolox/vim-easytags'
