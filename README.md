@@ -5,9 +5,10 @@ Setup Vundle:
 $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-Get .vimrc:
+Get installer:
+
 ```
-$ wget -O ~/.vimrc https://raw.githubusercontent.com/barantaran/vim-config/master/.vimrc
+$ wget -O https://raw.githubusercontent.com/barantaran/vim-config/master/install.sh
 ```
 
 Install bundles:
