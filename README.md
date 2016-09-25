@@ -13,5 +13,5 @@ $ wget -O https://raw.githubusercontent.com/barantaran/vim-config/master/install
 
 Install bundles:
 ```
-$ ./install.sh
+$ sudo ./install.sh
 ```
