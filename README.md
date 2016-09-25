@@ -12,5 +12,5 @@ $ wget -O ~/.vimrc https://raw.githubusercontent.com/barantaran/vim-config/maste
 
 Install bundles:
 ```
-$ vim +PluginInstall +qall
+$ ./install.sh
 ```
