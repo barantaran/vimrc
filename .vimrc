@@ -29,8 +29,6 @@ Plugin 'tpope/vim-commentary'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'othree/html5.vim'
 Plugin 'Lokaltog/vim-distinguished'
-Plugin 'xolox/vim-easytags'
-Plugin 'xolox/vim-misc'
  
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
