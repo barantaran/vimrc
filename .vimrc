@@ -29,6 +29,8 @@ Plugin 'tpope/vim-commentary'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'othree/html5.vim'
 Plugin 'Lokaltog/vim-distinguished'
+" Plugin 'posva/vim-vue'
+Plugin 'darthmall/vim-vue'
  
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -71,6 +73,9 @@ set wildmode=longest,list,full
 colorscheme distinguished
 " in case you forgot to sudo
 cnoremap w!! %!sudo tee > /dev/null %
+
+"auto indent in vue template
+au BufRead,BufNewFile *.vue set filetype=html
 
 " Fix Cursor in TMUX
 if exists('$TMUX')
