@@ -15,3 +15,4 @@ Install bundles:
 ```
 $ sudo sh install.sh
 ```
+Just ignore color scheme error - it should be installed later.
