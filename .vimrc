@@ -80,6 +80,8 @@ let sh_fold_enabled=1         " sh
 let vimsyn_folding='af'       " Vim script
 let xml_syntax_folding=1      " XML
 
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
 colorscheme distinguished
 " in case you forgot to sudo
 cnoremap w!! %!sudo tee > /dev/null %
