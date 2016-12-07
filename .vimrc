@@ -2,6 +2,12 @@ let mapleader = ","
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+"Disable cursor keys
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
 " enable syntax highlighting
 syntax enable
 
