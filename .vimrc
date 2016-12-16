@@ -35,6 +35,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'othree/html5.vim'
 Plugin 'Lokaltog/vim-distinguished'
+Plugin 'vim-syntastic/syntastic'
  
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -100,3 +101,13 @@ else
 	let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 	let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
+
+"Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
